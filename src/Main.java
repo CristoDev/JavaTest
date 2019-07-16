@@ -16,7 +16,7 @@ public class Main {
         }
 
         System.out.println("***********************");
-        System.out.println("Utilisation de ENUM");
+        System.out.println("Utilisation de ENUM ==> gere le NullPointerException");
 
         DefaultEnum.LOAD.createOperation("Chargement ENUM").resume();
         DefaultEnum.SAVE.createOperation("Sauvegarde ENUM").resume();

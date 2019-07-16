@@ -33,7 +33,7 @@ class Operation {
             System.out.println("---------------------------------");
         }
         catch (NullPointerException e) {
-            System.out.println("Attention null pointer exception!");
+            System.out.println("Attention null pointer exception depuis Operation::resume()");
         }
     }
 }
