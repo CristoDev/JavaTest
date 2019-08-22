@@ -1,4 +1,5 @@
-import java.util.function.BiFunction;
+package com.libgdx.javatest;
+
 import java.util.function.Function;
 
 public enum DefaultEnum {
@@ -10,7 +11,6 @@ public enum DefaultEnum {
     // BiFunction prend 2 parametres (ici String et String) pour créer 1 resultat (ici Operation)
     // pour notre cas, Operation, Load et Save n'ont pas de constructeur avec 2 paramètres
     //private BiFunction<String, String, Operation> supplier;
-
 
     DefaultEnum(Function<String, Operation> supplier)
     {

@@ -1,7 +1,9 @@
+package com.libgdx.javatest;
+
 import java.lang.reflect.Field;
 
 public class Hello {
-    private int moveX = 5, moveY = 2, posX = 50, posY = 80;
+    private int moveX = 5; //, moveY = 2, posX = 50, posY = 80;
     private double red = 0.5, green = 0.33, blue = 0.84, deltaRed = 0.017, deltaGreen = 0.021, deltaBlue = 0.013;
 
     public Hello() {
@@ -24,7 +26,7 @@ public class Hello {
     }
 
     // V1 test de la classe Field et changement de valeur
-    public void setV1(String attr) throws NoSuchFieldException, IllegalAccessException
+    private void setV1(String attr) throws NoSuchFieldException, IllegalAccessException
     {
         Field f = this.getClass().getDeclaredField(attr);
         System.out.println("valeur rouge 0: "+f.get(this));

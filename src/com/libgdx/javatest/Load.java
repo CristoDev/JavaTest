@@ -1,3 +1,5 @@
+package com.libgdx.javatest;
+
 public class Load extends Operation {
 
         Load(String controler)

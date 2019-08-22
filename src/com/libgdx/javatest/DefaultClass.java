@@ -1,3 +1,5 @@
+package com.libgdx.javatest;
+
 class DefaultClass {
     static final int LOAD=0;
     static final int SAVE=1;
@@ -17,7 +19,7 @@ class DefaultClass {
                 case 1:
                     return new Save(controler);
                 default:
-                    throw new NullPointerException("Erreur");
+                    throw new NullPointerException();
             }
         }
     }

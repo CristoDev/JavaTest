@@ -1,3 +1,5 @@
+package com.libgdx.javatest;
+
 class Operation {
     private String controler;
     private String element;
@@ -6,7 +8,7 @@ class Operation {
         this.setControler("default operation");
     }
 
-    Operation(String controler) {
+    public Operation(String controler) {
         this.setControler(controler);
     }
 
